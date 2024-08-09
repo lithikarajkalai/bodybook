@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+#logo{
+    width: 500px;
+
+}
+#logo img{
+    width: 250px;
+    margin-bottom: -20px;
+}
+#logo p{
+    color: black;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.box{
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    margin-left: 60px;
+    box-shadow: 0px 2px 10px 1px gray;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 5px;
+    outline: none;
+}
+
+.box input:focus{
+    box-shadow: 0px 0px 1px 1px orangered ;
+}
+ 
+.box button{
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #ff4500;
+}
+.box  button:hover{
+    background-color: #ff4400b0;
+}
+
+.box a{
+    color: #ff4500;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.box a:hover{
+    text-decoration: underline;
+}
+
+.box hr{
+    border: 1px solid whitesmoke;
+    margin-bottom: 15px;
+
+}
+
+.box .cna a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #249ea0 ;
+    font-weight: normal;
+    display: inline-block ;
+    margin-bottom: 5px;
+
+}
+.box .cna a:hover{
+    background-color: #249ea0af;
+}

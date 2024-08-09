@@ -20,6 +20,7 @@ body{
 #logo img{
     width: 250px;
     margin-bottom: -20px;
+    filter: drop-shadow(5px 5px 1px gray);
 }
 #logo p{
     color: black;
